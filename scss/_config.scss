@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300;700&display=swap');
+
+$colors: (
+    "color-background": rgb(18,23,37),
+    "color-white":rgb(255,255,255),
+    "color-green": rgb(84,230,175), 
+    "color-light-blue": rgb(194,203,229),
+    "color-input": rgb(44,52,75),
+);
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
