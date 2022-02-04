@@ -16,3 +16,15 @@ $colors: (
     border: 0;
     box-sizing: border-box;
 }
+
+@mixin tablet {
+    @media screen and (min-width: 768px) {
+        @content;        
+    }    
+}
+
+@mixin desktop {
+    @media screen and (min-width: 1440px) {
+        @content;        
+    }    
+}

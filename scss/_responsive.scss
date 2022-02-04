@@ -1,0 +1,75 @@
+@include tablet {
+    body {
+        box-shadow: none;
+        background: url(../assets/tablet/image-host.jpg) no-repeat top right,
+                    url(../assets/desktop/bg-pattern-dots.svg) no-repeat 30px bottom,
+                    map-get($colors, color-background);
+        text-align: left;
+        height: auto;
+        padding: 50px 0 257px 39px;
+    }
+
+    main {
+        margin-top: 152px;
+        background-color: map-get($colors, color-background);
+        width: 635px;
+        align-items: flex-start;
+
+        h1 {
+            font-size: 48px;
+            line-height: 56px;
+            margin: 90px 0 29px;
+        }
+
+        p {
+            width: 445px;
+            font-size: 18px;
+            line-height: 28px;
+            margin-bottom: 42px;
+        }
+
+        form {
+            order: 0; 
+            width: 427px;
+            margin-bottom: 64px;  
+
+            input {
+                padding: 14px 32px;
+            }
+
+            button {
+                position: absolute;
+                top: 0;
+                right: 0;
+                width: 162px;
+                margin: 5px 5px 5px 0;  
+                padding: 9px 27px;          
+            }
+        }
+    
+        .logos {
+            width: 536px;
+            margin: 0;
+
+            .spotify {
+                width: 96px;
+                height: 29px;
+            }
+
+            .apple {
+                width: 78px;
+                height: 29px;
+            }
+
+            .google {
+                width: 125px;
+                height: 18px;
+            }
+
+            .pocket {
+                width: 129px;
+                height: 26px;
+            }
+        }
+    }
+}
