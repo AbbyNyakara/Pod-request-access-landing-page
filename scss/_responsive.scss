@@ -1,3 +1,13 @@
+@include small {
+    main {
+        margin-top: 14px;
+    }
+
+    .pocket {
+        margin: 10px auto 0;
+    }
+}
+
 @include tablet {
     body {
         box-shadow: none;
@@ -37,6 +47,10 @@
 
     input {
         padding: 14px 32px;
+    }
+
+    #alertMessage {
+        top: 68px;
     }
 
     button {

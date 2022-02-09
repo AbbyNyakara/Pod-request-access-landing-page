@@ -24,10 +24,11 @@
         podcast to Spotify, Apple Podcasts, Google Podcasts, Pocket Casts and
         more!
       </p>
-      <form>
+      <form onsubmit="return false">
         <label for="email">Email address</label>
         <input type="text" id="email" placeholder="Email address" />
-        <button>Request access</button>
+        <p id="alertMessage"></p>
+        <button type="submit" onclick="inputValidation()">Request access</button>
       </form>
       <div class="logos">
         <img src="assets/desktop/spotify.svg" alt="Spotify" width="56px" height="17px" class="spotify" />
@@ -36,5 +37,6 @@
         <img src="assets/desktop/pocket-casts.svg" alt="Pocket Casts" width="77px" height="15px"  class="pocket" />
       </div>
     </main>
+    <script src="js/index.js"></script>
   </body>
 </html>
