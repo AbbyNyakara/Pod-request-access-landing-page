@@ -36,61 +36,61 @@ main {
           align-items: center;
 }
 
-main h1 {
+h1 {
   font-weight: normal;
   font-size: 26px;
-  line-height: 38px;
+  line-height: 1.48;
   text-transform: uppercase;
   color: #54e6af;
   margin-bottom: 16px;
 }
 
-main h1 span {
+span {
   color: white;
 }
 
-main p {
+p {
   font-size: 15px;
-  line-height: 25px;
+  line-height: 1.65;
   color: #c2cbe5;
   margin-bottom: 33px;
 }
 
-main form {
+form {
   -webkit-box-ordinal-group: 2;
       -ms-flex-order: 1;
           order: 1;
   position: relative;
 }
 
-main form label {
+label {
   position: absolute;
   z-index: -1;
   left: 20px;
 }
 
-main form input, main form button {
+input, button {
   font-family: 'Chivo', sans-serif;
   font-weight: bold;
   border-radius: 28px;
   width: 100%;
   padding: 9px 32px;
   font-size: 14px;
-  line-height: 28px;
+  line-height: 2;
 }
 
-main form input {
+input {
   background-color: #2c344b;
   color: white;
 }
 
-main form button {
+button {
   background-color: #54e6af;
   color: #121725;
   margin-top: 16px;
 }
 
-main .logos {
+.logos {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -121,28 +121,28 @@ main .logos {
         -ms-flex-align: start;
             align-items: flex-start;
   }
-  main h1 {
+  h1 {
     font-size: 48px;
-    line-height: 56px;
+    line-height: 1.19;
     margin: 90px 0 29px;
   }
-  main p {
+  p {
     width: 445px;
     font-size: 18px;
-    line-height: 28px;
+    line-height: 1.61;
     margin-bottom: 42px;
   }
-  main form {
+  form {
     -webkit-box-ordinal-group: 1;
         -ms-flex-order: 0;
             order: 0;
     width: 427px;
     margin-bottom: 64px;
   }
-  main form input {
+  input {
     padding: 14px 32px;
   }
-  main form button {
+  button {
     position: absolute;
     top: 0;
     right: 0;
@@ -150,25 +150,45 @@ main .logos {
     margin: 5px 5px 5px 0;
     padding: 9px 27px;
   }
-  main .logos {
+  .logos {
     width: 536px;
     margin: 0;
   }
-  main .logos .spotify {
+  .spotify {
     width: 96px;
     height: 29px;
   }
-  main .logos .apple {
+  .apple {
     width: 78px;
     height: 29px;
   }
-  main .logos .google {
+  .google {
     width: 125px;
     height: 18px;
   }
-  main .logos .pocket {
+  .pocket {
     width: 129px;
     height: 26px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  body {
+    background: url(../assets/desktop/bg-pattern-dots.svg) no-repeat right calc(100vh - 182px), url(../assets/desktop/image-host.jpg) no-repeat center right, #121725;
+    padding: 102px 0 130px 165px;
+    height: 100vh;
+  }
+  main {
+    margin-top: 96px;
+    width: 723px;
+  }
+  h1 {
+    font-size: 52px;
+    line-height: 1.25;
+    margin: 88px 0 24px;
+  }
+  p {
+    line-height: 1.48;
   }
 }
 /*# sourceMappingURL=main.css.map */
